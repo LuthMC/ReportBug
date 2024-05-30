@@ -1,6 +1,6 @@
 <?php
 
-namespace ReportBug;
+namespace Luthfi\ReportBug;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
