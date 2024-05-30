@@ -1,0 +1,21 @@
+name: ReportBug
+version: 1.0.0
+main: Luthfi\ReportBug\Main
+api: 5.0.0
+author: Luthfi
+commands:
+  reportbug:
+    description: "Report a bug"
+    usage: "/reportbug <description>"
+    permission: reportbug.use.reportbug
+  rb:
+    description: "View reported bugs"
+    usage: "/rb"
+    permission: reportbug.use.rb
+permissions:
+  reportbug.use.reportbug:
+    description: "Allows the player to report bugs"
+    default: true
+  reportbug.use.rb:
+    description: "Allows the player to view reported bugs"
+    default: op
